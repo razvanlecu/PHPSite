@@ -5,8 +5,8 @@ if(isset($_POST['submit'])){
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
     $subject = "PHP Test";
-    $account = "razvanphptest@gmail.com";
-    $password = "gigel1010";
+    $account = "xxxx";
+    $password = "xxxx";
     $message = $first_name . " " . $last_name . " a scris:" . "\n\n" . $_POST['message'] . " si are mailul: " . $from;
     echo "Email trimis " . $first_name . ", te contactam noi.";
 
